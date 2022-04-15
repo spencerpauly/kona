@@ -46,7 +46,7 @@ const GeneralSentimentSection = ({ rygData }: Props) => {
 
 	return (
 		<div className='bg-white rounded-lg shadow-card p-6 m-4'>
-			<h3 className='font-semibold'>Current Sentiment for July</h3>
+			<h3 className='font-semibold'>Company Well-Being for July</h3>
 			<div className='p-4'>
 				<Doughnut data={data} options={options} plugins={[ChartDataLabels]} />
 			</div>
